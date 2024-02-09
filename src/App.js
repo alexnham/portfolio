@@ -7,6 +7,9 @@ import Projects from "./Projects";
 function App() {
   return (
     <div>
+      <div className="sm:flex md:hidden">
+        <h1>Mobile Under Development</h1>
+        </div>
       <div >
         <Navbar/>
       </div>
