@@ -1,4 +1,6 @@
 import img1 from "./img1.png"
+import img2 from "./img2.png"
+
 
 const About = () => {
     return (
@@ -18,7 +20,7 @@ const About = () => {
             </div>
             <div className="bg-white w-3/6 h-screen flex justify-center items-center">
                 <div className="bg-blue-500 w-4/6 h-5/6 flex justify-center items-center">
-                    <img classname="w-full h-full" src={img1}></img>
+                    <img classname="w-full h-full" src={img2}></img>
 
                 </div>
             </div>
