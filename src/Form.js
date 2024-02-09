@@ -1,11 +1,13 @@
 import emailjs from '@emailjs/browser';
-import {useRef} from 'react';
+import {useRef, useState} from 'react';
 
 const Form = () => {
     const form = useRef();
+    const [loading, setLoading] = useState(false)
 
     const sendEmail = (e) => {
         e.preventDefault();
+        setLoading(true)
     
         emailjs
           .sendForm('service_qinbgjs', 'template_wk9532m', form.current, {
@@ -14,9 +16,11 @@ const Form = () => {
           .then(
             () => {
               alert('Message Sent');
+              setLoading(false)
             },
             (error) => {
               alert('FAILED...', error.text);
+              setLoading(false)
             },
           );
       };
@@ -48,7 +52,7 @@ const Form = () => {
                     name="message"
                     placeholder="Body"
                 />
-            <button>Send</button>
+            {!loading && <button>Send</button>}
                 </form>
      );
 }
