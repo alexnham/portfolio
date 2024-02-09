@@ -19,3 +19,24 @@ body {
   height: 100%;
   overflow: auto;
 }
+form input {
+  margin-bottom: 1rem;
+  height: 2.5rem;
+  border-radius: 9999px;
+  padding-left: 10px;
+}
+form textarea {
+  height: 15rem;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+form button {
+  background-color: rgb(251, 251, 251);
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+
+  width:100px;
+
+}
