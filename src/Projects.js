@@ -5,7 +5,7 @@ const Projects = () => {
         <div className="relative min-h-screen w-screen bg-green-400 flex justify-center items-center">
             <a className="absolute top-0" id="Projects"></a>
             
-            <div className="relative bg-green-600 w-full md:w-5/6 h-full flex flex-col lg:flex-row justify-center items-center">
+            <div className="relative bg-green-600 w-full md:w-5/6  max-sm:h-screen max-sm:w-screen h-full flex flex-col lg:flex-row justify-center items-center">
                 <h1 className="text-white pt-10 text-5xl top-0 absolute">Projects</h1>
 
                 <div className="w-full md:w-1/2 flex justify-center items-center pt-16">
