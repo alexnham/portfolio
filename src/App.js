@@ -1,19 +1,22 @@
 import About from "./About";
 import Home from "./Home";
+import Navbar from "./Navbar";
 import Projects from "./Projects";
 
 function App() {
   return (
     <div>
-      <div>
+      <div >
+        <Navbar/>
+      </div>
+      <div className="overflow-auto">
         <Home />
-      </div>
-      <div className="top-6/6">
         <About />
-      </div>
-      <div className="top-12/6">
         <Projects />
       </div>
+      
+
+      
     </div>
   );
 }

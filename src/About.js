@@ -25,8 +25,6 @@ const About = () => {
                 </div>
             </div>
             <a className="absolute top-0 text-5xl text-red-500" id="About"></a>
-            <p className="absolute top-0 right-0 text-5xl text-black" ><a href="#Home">^</a></p>
-            <p className="absolute bottom-0 right-0 text-5xl text-black" ><a href="#Projects">v</a></p>
 
         </div>
     );
