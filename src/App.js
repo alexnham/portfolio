@@ -6,15 +6,15 @@ function App() {
   return (
     <div>
       <div>
-        <Home/>
+        <Home />
       </div>
       <div className="top-6/6">
-        <About/>
-        </div>
-      <div className="top-12/6">
-        <Projects/>
+        <About />
       </div>
-   </div>
+      <div className="top-12/6">
+        <Projects />
+      </div>
+    </div>
   );
 }
 
