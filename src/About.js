@@ -1,3 +1,5 @@
+import img1 from "./img1.png"
+
 const About = () => {
     return (
         <div className="relative w-screen h-screen flex flex-row">
@@ -15,13 +17,14 @@ const About = () => {
                 </p>
             </div>
             <div className="bg-white w-3/6 h-screen flex justify-center items-center">
-                <div className="bg-blue-100 w-4/6 h-5/6">
+                <div className="bg-blue-500 w-4/6 h-5/6 flex justify-center items-center">
+                    <img classname="w-full h-full" src={img1}></img>
 
                 </div>
             </div>
             <a className="absolute top-0 text-5xl text-red-500" id="About"></a>
             <p className="absolute top-0 right-0 text-5xl text-black" ><a href="#Home">^</a></p>
-            <p className="absolute bottom-0 right-0 text-5xl text-black" ><a href="#Home">v</a></p>
+            <p className="absolute bottom-0 right-0 text-5xl text-black" ><a href="#Projects">v</a></p>
 
         </div>
     );

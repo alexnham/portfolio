@@ -5,14 +5,15 @@
 * {
   scroll-behavior: smooth;
   font-family:"Poor Story";
+  min-width: 0;
 }
 html {
 
- /* overflow: hidden; */
+ overflow: hidden; 
  height: 100%;
 }
 
 body {
   height: 100%;
- /* overflow: hidden; */
+ overflow: hidden; 
 }
