@@ -1,9 +1,20 @@
+import About from "./About";
+import Home from "./Home";
+import Projects from "./Projects";
 
 function App() {
   return (
-    <div className="bg-contain h-screen w-screen flex justify-center items-center text-5xl">
-      <h1>Alex Nham</h1>
-    </div>
+    <div>
+      <div>
+        <Home/>
+      </div>
+      <div className="top-6/6">
+        <About/>
+        </div>
+      <div className="top-12/6">
+        <Projects/>
+      </div>
+   </div>
   );
 }
 
