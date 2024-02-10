@@ -26,7 +26,7 @@ const Form = () => {
       };
 
     return ( 
-        <form ref={form} className=" text-black mt-20 flex flex-col w-5/6" onSubmit={sendEmail}>
+        <form ref={form} className=" text-black mt-20 flex flex-col w-5/6 h-full" onSubmit={sendEmail}>
                 <input
                     type="text"
                     name="name"
