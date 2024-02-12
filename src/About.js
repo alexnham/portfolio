@@ -4,8 +4,8 @@ import img2 from "./img2.png"
 
 const About = () => {
     return (
-        <div class="min-w-28 relative w-screen h-screen flex flex-wrap flex-row">
-    <div class="whitespace-normal bg-green-700 w-full md:w-3/6  h-screen text-white flex flex-wrap flex-col justify-center items-center">
+        <div class="min-w-28 bg-gradient-to-b from-green-400 to-green-700 relative w-screen h-screen flex flex-wrap flex-row">
+    <div class="whitespace-normal  w-full md:w-3/6  h-screen text-white flex flex-wrap flex-col justify-center items-center">
         <h1 class="pt-10 text-5xl top-0">About Me</h1>
         <p class="max-sm:px-10 max-sm:text-sm block text-wrap w-full md:w-3/4 h-3/2 pt-10">
             Ever since I was little, I was always stuck to a computer screen whether it was playing games or watching funny videos. Now I'm stuck to a screen trying to debug code.
@@ -19,8 +19,8 @@ const About = () => {
             <br /> - Project and Time Management Strategic-thinking and Problem-solving abilities
         </p>
     </div>
-    <div class="bg-green-200 w-full md:w-3/6 h-screen flex justify-center items-center">
-        <div class="bg-green-500 w-4/6 h-5/6 flex justify-center items-center">
+    <div class=" w-full md:w-3/6 h-screen flex justify-center items-center">
+        <div class="bg-green-200 w-4/6 h-5/6 flex justify-center items-center">
             <img class="w-7/9 h-7/8" src={img2} alt="Profile Picture" />
         </div>
     </div>

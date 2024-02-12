@@ -9,13 +9,13 @@ const Contact = () => {
 
 
     return (
-        <div class="max-lg:overflow-auto relative lg:h-screen bg-green-500 w-screen text-center flex justify-evenly max-lg:flex-col">
+        <div class="max-lg:overflow-auto relative lg:h-screen bg-gradient-to-b from-green-400 to-green-700 w-screen text-center flex justify-evenly max-lg:flex-col">
             <h1 class="absolute pt-10 max-lg:-top-6 max-sm:top-1  text-5xl left-0 right-0 m-auto text-white z-10">Contact Me</h1>
             <a class="absolute top-0" id="Contact"></a>
-            <div class="whitespace-normal bg-green-900 max-lg:w-full h-3/4 max-sm:pt-10 lg:w-1/3 m-auto text-white flex flex-wrap justify-center">
+            <div class="whitespace-normal max-md:bg-inherit bg-green-900 max-lg:w-full h-3/4 max-sm:pt-10 lg:w-1/3 m-auto text-white flex flex-wrap justify-center">
                 <Form />
             </div>
-            <div class="relative max-lg:text-s whitespace-normal bg-green-900 w-full max-md:pt-10 max-lg:flex-col lg:w-1/3 h-3/4 m-auto text-white flex flex-wrap flex-col justify-evenly items-start">
+            <div class="relative max-lg:text-s max-md:bg-inherit whitespace-normal bg-green-900 w-full max-md:pt-10 max-lg:flex-col lg:w-1/3 h-3/4 m-auto text-white flex flex-wrap flex-col justify-evenly items-start">
 
                 <h1 className="absolute top-4 left-0 right-0 mx-auto">Social Media</h1>
                 <div className="flex flex-col">

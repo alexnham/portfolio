@@ -1,10 +1,13 @@
 
 const Home = () => {
     return ( 
-        <div className="bg-green-400 text-white relative bg-contain h-screen w-screen flex justify-center items-center text-5xl">
-        <h1><a href="#About">Alex Nham</a></h1>
+        <div className="relative bg-gradient-to-b from-green-700 to-green-400 text-white h-screen w-screen flex flex-col justify-center items-center text-5xl">
+        <a  href="#About">
+          <h1>Hi I'm Alex Nham</h1>
+        </a>
         <a className="absolute top-0 " id="Home"></a>
-      </div>
+    </div>
+  
      );
 }
  
