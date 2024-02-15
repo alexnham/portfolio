@@ -17,7 +17,7 @@ const Contact = () => {
             </div>
             <div class="relative max-lg:text-s max-md:bg-inherit whitespace-normal bg-green-900 w-full max-md:pt-10 max-lg:flex-col lg:w-1/3 h-3/4 m-auto text-white flex flex-wrap flex-col justify-evenly items-start">
 
-                <h1 className="absolute top-4 left-0 right-0 mx-auto">Social Media</h1>
+                <h1 className="absolute top-4 left-0 right-0 mx-auto">Links</h1>
                 <div className="flex flex-col">
                     <a target="_blank" href="https://www.github.com/alexnham">
                     <span className="cursor-pointer flex text-xl ml-6 items-center">

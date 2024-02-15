@@ -1,4 +1,4 @@
-
+import resume from './resume.pdf'
 const Navbar = () => {
 
     return ( 
@@ -7,6 +7,7 @@ const Navbar = () => {
             <h1 ><a href="#About">About</a></h1>
             <h1 ><a href="#Projects">Projects</a></h1>
             <h1 ><a href="#Contact">Contact</a></h1>
+            <h1 ><a href={resume} target='_blank'>Resume</a></h1>
 
                </nav>
       
