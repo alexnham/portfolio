@@ -9,7 +9,7 @@ const Contact = () => {
 
 
     return (
-        <div class="max-lg:overflow-auto relative lg:h-screen bg-gradient-to-b from-green-400 to-green-700 w-screen text-center flex justify-evenly max-lg:flex-col">
+        <div class="max-lg:overflow-auto relative lg:h-screen w-screen text-center flex justify-evenly max-lg:flex-col">
             <h1 class="absolute pt-10 max-lg:-top-6 max-sm:top-1  text-5xl left-0 right-0 m-auto text-white z-10">Contact Me</h1>
             <a class="absolute top-0" id="Contact"></a>
             <div class="whitespace-normal max-md:bg-inherit bg-green-900 max-lg:w-full h-3/4 max-sm:pt-10 lg:w-1/3 m-auto text-white flex flex-wrap justify-center">

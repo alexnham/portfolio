@@ -4,7 +4,7 @@ import img2 from "./img2.png"
 
 const About = () => {
     return (
-        <div class="min-w-28 bg-gradient-to-b from-green-400 to-green-700 relative w-screen h-screen flex flex-wrap flex-row">
+        <div class="min-w-28  relative w-screen h-screen flex flex-wrap flex-row">
     <div class="whitespace-normal  w-full md:w-3/6  h-screen text-white flex flex-wrap flex-col justify-center items-center">
         <h1 class="pt-10 text-5xl top-0">About Me</h1>
         <p class="max-sm:px-10 max-sm:text-sm block text-wrap w-full md:w-3/4 h-3/2 pt-10">

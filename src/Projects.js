@@ -2,7 +2,7 @@ import ProjManage from "./Logo.png";
 
 const Projects = () => {
     return (  
-        <div className="relative min-h-screen bg-gradient-to-b from-green-700 to-green-400 justify-center items-center md:w-6/6 max-sm:h-screen max-sm:w-screen h-full flex flex-col lg:flex-row">
+        <div className="relative min-h-screen justify-center items-center md:w-6/6 max-sm:h-screen max-sm:w-screen h-full flex flex-col lg:flex-row">
     <a className="absolute top-0" id="Projects"></a>
     <h1 className="text-white pt-10 text-5xl top-0 absolute">Projects</h1>
 

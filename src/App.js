@@ -6,8 +6,8 @@ import Projects from "./Projects";
 
 function App() {
   return (
-    <div>
-      <div >
+    <div className="bg-gradient-to-b from-green-700 to-green-400">
+      <div>
         <Navbar/>
       </div>
       <div className="overflow-auto">
