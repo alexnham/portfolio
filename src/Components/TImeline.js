@@ -32,6 +32,7 @@ const Timeline = () => {
                 disableToolbar
                 disableClickOnCircle
                 activeItemIndex
+        
                 mode="VERTICAL_ALTERNATING"
                 theme={{
                     titleColor: 'white',
