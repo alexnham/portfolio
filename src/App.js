@@ -1,10 +1,9 @@
-import About from "./About";
-import Contact from "./Contact";
-import Home from "./Home";
-import Projects from "./Projects";
-import Skills from "./Skills";
-import Socials from "./Socials";
-
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import Home from "./Pages/Home";
+import Projects from "./Pages/Projects";
+import Skills from "./Pages/Skills";
+import Experience from "./Pages/Experience"
 function App() {
   return (
     <div className="">
@@ -12,6 +11,7 @@ function App() {
         <Home />
         <About />
         <Skills/>
+        <Experience />
         <Projects />
         <Contact />
       </div>
