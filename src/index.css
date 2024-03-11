@@ -1,24 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 * {
   margin: 0;
   scroll-behavior: smooth;
-  font-family:"Poor Story";
+  font-family:"League Spartan";
   min-width: 0;
-  overflow:hidden;
-  
+  overflow:auto
   
 }
 html {
-  overflow: hidden;
   height: 100%;
+  overflow:auto
+
 }
 
 body {
   height: 100%;
-  overflow: auto;
 }
 form input {
   margin-bottom: 1rem;
@@ -40,4 +39,21 @@ form button {
 
   width:100px;
 
+}
+
+.scrollingEffect {
+  animation: scroll 10s linear infinite; /* Adjust the animation duration as needed */
+}
+.fade{
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+@keyframes scroll {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-50%);
+  }
 }

@@ -1,18 +1,17 @@
 import About from "./About";
 import Contact from "./Contact";
 import Home from "./Home";
-import Navbar from "./Navbar";
 import Projects from "./Projects";
+import Skills from "./Skills";
+import Socials from "./Socials";
 
 function App() {
   return (
-    <div className="bg-gradient-to-b from-green-700 to-green-400">
-      <div>
-        <Navbar/>
-      </div>
+    <div className="">
       <div className="overflow-auto">
         <Home />
         <About />
+        <Skills/>
         <Projects />
         <Contact />
       </div>
