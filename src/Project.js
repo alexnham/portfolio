@@ -2,8 +2,8 @@ const Project = ({github,projManageLink, image, description,link}) => {
     return ( 
         <div className="flex flex-col gap-y-2 w-[300px] h-[540px] rounded-xl bg-[#30323d] pb-5  ">
             
-            <div className='w-[200px] h-[300px] m-auto mt-3'>
-            <img className="w-[100%] h-[100%] object-scale-down" src={image}></img>
+            <div className='w-[200px] 0 h-[300px] m-auto mt-3'>
+            <img className="w-[100%] h-[100%] object-contain" src={image}></img>
             </div>
             
             <div className="flex h-10 w-fit m-auto gap-10 justify-evenly overflow-hidden">
