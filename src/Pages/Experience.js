@@ -2,13 +2,13 @@ import Timeline from "../Components/TImeline";
 
 const Experience = () => {
     return (
-        <div className="bg-[#30323d] relative min-h-screen justify-center items-center md:w-6/6 max-sm:h-screen max-sm:w-screen h-full flex flex-col lg:flex-row pb-10">
-            <a className="absolute top-0" id="Projects"></a>
-            <h1 className="text-[#fff] pt-10 text-5xl top-0 absolute">Experience</h1>
-            <div className="h-full w-full flex justify-center items-center pt-32 ">
-                <Timeline/>
-            </div>
+        <div className="bg-[#30323d] relative justify-center items-center flex flex-col lg:flex-row pb-30">
+        <a className="absolute top-0" id="Projects"></a>
+        <h1 className="text-[#fff] pt-10 text-5xl lg:text-6xl lg:pt-0 lg:pl-10">Experience</h1>
+        <div className="h-full w-full flex justify-center items-center lg:pt-32">
+            <Timeline className="w-full max-w-screen-lg" /> {/* Adjust width as needed */}
         </div>
+    </div>
 
     );
 }
