@@ -8,10 +8,10 @@ import coinflip from "./coinflip.png";
 
 const Projects = () => {
     return (
-        <div className="bg-[#ddd] relative min-h-screen justify-center items-center md:w-6/6 max-sm:h-screen max-sm:w-screen h-full flex flex-col lg:flex-row">
+        <div className="bg-[#ddd] relative min-h-screen justify-center items-center md:w-6/6 max-sm:h-screen max-sm:w-screen h-full flex flex-col lg:flex-row pb-10">
             <a className="absolute top-0" id="Projects"></a>
             <h1 className="text-[#333] pt-10 text-5xl top-0 absolute">Projects</h1>
-            <section class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 pt-32">
+            <section class="grid gap-4 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-32">
             <Project image={ProjManage} link="https://project-6olz.onrender.com/" github="https://github.com/alexnham/ProjManage-back" projManageLink="https://project-6olz.onrender.com/" description="ProjManage is a website I developed where users are able to display their projects. The web application utilizes React.js for the frontend, Node.js and Express.js for the backend, and MongoDB for the backend. Users are able to create their accounts securely and exhibit their creations!"/>
             <Project image={aim} description="PrecisionPro: Your Ultimate Aim Trainer! Refine your aiming skills with PrecisionPro, With increasingly difficult exercises, score counter, and a high score chart, hitting your targets has never been easier." github="https://github.com/alexnham/AimTrainer" projManageLink="https://project-6olz.onrender.com/projects/65c5d0c757f20d868d4c2857"/>
             <Project image={coinflip} link="https://alexnham.github.io/coinflip" description="CoinFlip Simulator: The project is an interactive coin flip game with captivating animations and a win streak challenge. Players experience the thrill of tossing a virtual coin and can track their success with a built-in win streak feature. It offers a modern twist on the classic game, combining innovation and chance for an engaging experience." github="https://github.com/alexnham/coinflip" projManageLink="https://project-6olz.onrender.com/projects/65b3c3af10470b3e58afe524"/>

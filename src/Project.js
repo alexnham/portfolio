@@ -1,6 +1,6 @@
 const Project = ({github,projManageLink, image, description,link}) => {
     return ( 
-        <div className="flex flex-col gap-y-2 w-[240px] h-[340px] rounded-xl bg-[#30323d] pb-5  ">
+        <div className="flex flex-col gap-y-2 w-[300px] h-[540px] rounded-xl bg-[#30323d] pb-5  ">
             
             <div className='w-[200px] h-[300px] m-auto mt-3'>
             <img className="w-[100%] h-[100%] object-scale-down" src={image}></img>
@@ -11,7 +11,7 @@ const Project = ({github,projManageLink, image, description,link}) => {
             <button className='bg-white h-[100%] px-1 text-center rounded-md' onClick={() => window.open(projManageLink)}>Demo</button>
             {link && <button className='bg-white h-[100%] px-1 text-center rounded-md' onClick={() => window.open(link)}>Site</button>}
             </div>
-            <div className="text-[9px] p-1 relative h-2/3 w-[90%] m-auto  rounded-lg bg-white break-words">
+            <div className="text-base p-1 relative h-2/3 w-[90%] m-auto  rounded-lg bg-white break-words">
             <p>{description}</p>
             </div>
         </div>
