@@ -8,7 +8,7 @@ import coinflip from "../Images/coinflip.png";
 
 const Projects = () => {
     return (
-        <div class="bg-[#ddd] min-h-screen flex flex-col justify-center items-center">
+        <div class="bg-[#ddd] min-h-screen flex flex-col justify-center items-center pb-10">
         <a class="absolute top-0" id="Projects"></a>
         <h1 class="text-[#333] pt-10 text-3xl md:text-5xl">Projects</h1>
         <section class="overflow-hidden grid gap-5 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-5 md:pt-10">
