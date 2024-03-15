@@ -11,7 +11,7 @@ const Skills = () => {
             <Logo imgLink="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png"/>
             <Logo imgLink="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png"/>
             <Logo imgLink="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/css/css.png"/>
-            <Logo imgLink="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/r/r.png"/>
+            <Logo imgLink="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"/>
             <Logo imgLink="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
             <Logo imgLink="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" />
             <Logo imgLink="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"/>
@@ -21,7 +21,7 @@ const Skills = () => {
             <Logo imgLink="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png"/>
             <Logo imgLink="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png"/>
             <Logo imgLink="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/css/css.png"/>
-            <Logo imgLink="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/r/r.png"/>
+            <Logo imgLink="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"/>
             <Logo imgLink="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
             <Logo imgLink="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" />
             <Logo imgLink="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"/>
