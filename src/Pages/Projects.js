@@ -11,7 +11,7 @@ const Projects = () => {
         <div class="bg-[#ddd] min-h-screen flex flex-col justify-center items-center pb-10">
         <a class="absolute top-0" id="Projects"></a>
         <h1 class="text-[#333] pt-10 text-3xl md:text-5xl">Projects</h1>
-        <section class="overflow-hidden grid gap-5 grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-5 md:pt-10">
+        <section class="overflow-hidden grid gap-5 grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 pt-5 md:pt-10">
             <div class="max-w-[calc(50%-1rem)] md:max-w-none">
                 <Project image={ProjManage} link="https://project-6olz.onrender.com/user/AlexNham" github="https://github.com/alexnham/ProjManage-back" projManageLink="https://project-6olz.onrender.com/" description="ProjManage is a website I developed where users are able to display their projects. The web application utilizes React.js for the frontend, Node.js and Express.js for the backend, and MongoDB for the backend. Users are able to create their accounts securely and exhibit their creations!"/>
             </div>
