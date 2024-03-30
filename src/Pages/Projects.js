@@ -4,6 +4,7 @@ import aim from "../Images/aim.png";
 import ai from "../Images/ainspire.jpeg";
 import booking from "../Images/booking.png";
 import coinflip from "../Images/coinflip.png";
+import ef from "../Images/ef.png"
 
 
 const Projects = () => {
@@ -26,6 +27,9 @@ const Projects = () => {
             </div>
             <div class="max-w-[calc(50%-1rem)]  md:max-w-none">
                 <Project image={booking} description="BookManage, my in-house booking system simplifies the booking process by providing an intuitive interface powered by JavaFX and robust data management with MySQL Workbench. Users can effortlessly navigate through the booking process, and an integrated calendar feature helps them stay organized with upcoming appointments." projManageLink="https://project-6olz.onrender.com/projects/65c5d13a57f20d868d4c285c" github="https://github.com/alexnham/bookingsystem"/>
+            </div>
+            <div class="max-w-[calc(50%-1rem)]  md:max-w-none">
+                <Project image={ef} link="https://ashtonfranklin04.itch.io/elemental-flip" description="Elemental Flip, in a world, barred with pain and suffering, a small village has created an unknown potion recipe, that grants an endless source of joy to withstand this cruel world. a large group of evil raiders hated the sound of this, and wanted to put an end to the village. unexpectedly, the village fought back, defending their recipe and taking down the raiders. Now, you are tasked with a significant operation finish the job. take down the village." projManageLink="https://project-6olz.onrender.com/projects/66086193f9a8b4a57e3d45ba" github="https://github.com/alexnham/elemental_flip"/>
             </div>
         </section>
     </div>
