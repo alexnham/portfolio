@@ -9,6 +9,12 @@ const Timeline = () => {
             cardSubtitle: "Website Coordinator",
             cardDetailedText: "As a Website Coordinator, I utilize CSS to enhance client web stores for exceptional digital experiences. I design custom Python automation scripts, improving workflow processes by over 100%. Additionally, I proficiently manage client data with Microsoft Excel, contributing to streamlined operations. My focus on innovation and attention to detail ensures optimal performance and outstanding results.",
           
+        },
+        {
+            title: "April 2024",
+            cardTitle: "AQX AI",
+            cardSubtitle: "Software Developer Intern",    
+            cardDetailedText: "TBD",      
         }
     ];
 
