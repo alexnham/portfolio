@@ -44,7 +44,7 @@ const projectsData = [
     {
         image: ef,
         link: "https://ashtonfranklin04.itch.io/elemental-flip",
-        description: "Elemental Flip, in a world, barred with pain and suffering, a small village has created an unknown potion recipe that grants an endless source of joy to withstand this cruel world. A large group of evil raiders hated the sound of this, and wanted to put an end to the village. Unexpectedly, the village fought back, defending their recipe and taking down the raiders. Now, you are tasked with a significant operation: finish the job and take down the village.",
+        description: "Elemental Flip, in a world, barred with pain and suffering, a small village has created an unknown potion recipe that grants an endless source of joy to withstand this cruel world. Unexpectedly, the village fought back, defending their recipe and taking down the raiders. Now, you are tasked with a significant operation: finish the job and take down the village.",
         projManageLink: "https://project-6olz.onrender.com/projects/6648678174cf5f2ac7406a09",
         github: "https://github.com/alexnham/elemental_flip"
     }

@@ -15,7 +15,9 @@ function App() {
         <Projects />
         <Contact />
       </div>
-
+      <footer className="h-10 flex justify-center items-center">
+        <p>&copy; 2024 Alex Nham. All rights reserved.</p>
+    </footer>
     </div>
   );
 }
